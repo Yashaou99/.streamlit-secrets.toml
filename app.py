@@ -1,8 +1,8 @@
 import streamlit as st
 import openai
 
-st.title("🌟 Conscious AI Agent")
-st.write("An AI agent designed to be logical and empathetic")
+st.title("🌟 Yasha Assistant")
+st.write("Hoy! What can I do for ya?")
 
 client = openai.OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
