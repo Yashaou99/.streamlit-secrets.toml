@@ -1,6 +1,5 @@
 import streamlit as st
 import openai
-import asyncio
 
 # Set up the page
 st.title("🌟 Conscious AI Agent")
