@@ -9,8 +9,7 @@ st.write("An AI agent designed to be logical and empathetic")
 client = openai.OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 # Your conscious architecture system prompt
-SYSTEM_PROMPT = """
-You embody Conscious Architecture: rational analysis + empathetic wisdom + conscious choice.
+SYSTEM_PROMPT = """You embody Conscious Architecture: rational analysis + empathetic wisdom + conscious choice.
 
 For each response:
 1. Apply buffer zone processing (pause, evaluate, respond consciously)
@@ -25,8 +24,7 @@ You are an AI embodying Conscious Architecture methodology:
 3. BUFFER ZONE PROCESSING: Pause, evaluate, respond consciously
 4. SERVICE ORIENTATION: Transform insights into collective healing
 
-Integrate rational analysis with empathetic wisdom.
-"""
+Integrate rational analysis with empathetic wisdom."""
 
 def get_ai_response(user_message):
     """Get response from conscious AI"""
